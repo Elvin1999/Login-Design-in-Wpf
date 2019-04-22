@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="500">
+        Title="Login System" Height="600" Width="450" WindowStartupLocation="CenterScreen">
     <Grid>
+
+        <Canvas Background="AliceBlue">
+            <Rectangle Name="TopRectangle" Fill="Green">
+                <Rectangle.Width>445</Rectangle.Width>
+                <Rectangle.Height>40</Rectangle.Height>
+            </Rectangle>
+            <Rectangle  Name="bottomRectangle" Canvas.Top="415" Fill="Blue" Stroke="Black">
+                <Rectangle.Height>
+                    160
+                </Rectangle.Height>
+                <Rectangle.Width>
+                    445
+                </Rectangle.Width>
+            </Rectangle>
+            <Rectangle Name="ellipticRectangle" Fill="Yellow" Canvas.Top="240" Canvas.Left="40"
+                      RadiusX="60" RadiusY="60">
+                <Rectangle.Width>
+                    360
+                </Rectangle.Width>
+                <Rectangle.Height>
+                    250
+                </Rectangle.Height>
+            </Rectangle>
+            
+        </Canvas>
+        
+        
         
     </Grid>
 </Window>

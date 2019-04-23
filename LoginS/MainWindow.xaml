@@ -5,34 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginS"
         mc:Ignorable="d"
-        Title="Login System" Height="600" Width="450" WindowStartupLocation="CenterScreen">
+        Title="Login System" Height="600" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
 
-        <Canvas Background="AliceBlue">
+        <!--<Canvas Background="AliceBlue">
             <Rectangle Name="TopRectangle" Fill="Green">
                 <Rectangle.Width>445</Rectangle.Width>
                 <Rectangle.Height>40</Rectangle.Height>
             </Rectangle>
-            <Rectangle  Name="bottomRectangle" Canvas.Top="415" Fill="Blue" Stroke="Black">
+            <Rectangle  Name="bottomRectangle" Canvas.Top="395" Fill="Blue" Stroke="Black">
                 <Rectangle.Height>
-                    160
+                    180
                 </Rectangle.Height>
                 <Rectangle.Width>
                     445
                 </Rectangle.Width>
             </Rectangle>
-            <Rectangle Name="ellipticRectangle" Fill="Yellow" Canvas.Top="240" Canvas.Left="40"
+            <Rectangle Name="ellipticRectangle" Fill="Yellow" Canvas.Top="220" Canvas.Left="40"
                       RadiusX="60" RadiusY="60">
                 <Rectangle.Width>
                     360
                 </Rectangle.Width>
                 <Rectangle.Height>
-                    250
+                    270
                 </Rectangle.Height>
             </Rectangle>
             
+        </Canvas>-->
+        <Canvas>
+            <Canvas.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#d38312" Offset="0.0" />
+                    <GradientStop Color="#a83279" Offset="0.8" />
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <Rectangle>
+                
+            </Rectangle>
         </Canvas>
-        
         
         
     </Grid>

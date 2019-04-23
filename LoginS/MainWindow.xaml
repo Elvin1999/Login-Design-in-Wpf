@@ -48,6 +48,67 @@
                     </LinearGradientBrush>
                 </Ellipse.Fill>
             </Ellipse>
+            <Image Source="Images\personimage.png">
+                <Canvas.Left>510</Canvas.Left>
+                <Canvas.Top>120</Canvas.Top>
+                <Image.Width>80</Image.Width>
+                <Image.Height>70</Image.Height>
+            </Image>
+            <Label>
+                <Canvas.Left>460</Canvas.Left>
+                <Canvas.Top>190</Canvas.Top>
+                <Label.Width>200</Label.Width>
+                <Label.Height>30</Label.Height>
+                <Label.Content>Login below to get started</Label.Content>
+                <Label.Foreground>Gray</Label.Foreground>
+                <Label.FontFamily>Comic Sans MS</Label.FontFamily>
+            </Label>
+          
+            <Border CornerRadius="20">
+
+              
+                <Canvas.Left>440</Canvas.Left>
+                <Canvas.Top>230</Canvas.Top>
+                <Border.Width>220</Border.Width>
+                <Border.Height>40</Border.Height>
+                <Border.Background>#f2f3f4</Border.Background>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images\message.png" Margin="10,0,0,0">
+                        <Image.Width>25</Image.Width>
+                        <Image.Height>25</Image.Height>
+                    </Image>
+                    <TextBox BorderThickness="0">
+
+                        <TextBox.Width>170</TextBox.Width>
+                        <TextBox.FontSize>15</TextBox.FontSize>
+                        <TextBox.FontFamily>Comic Sans MS</TextBox.FontFamily>
+                        <TextBox.Text>......E-mail Address</TextBox.Text>
+                        <TextBox.Foreground>#c1c7c9</TextBox.Foreground>
+                        <TextBox.Height>30</TextBox.Height>
+                        <TextBox.Background>#f2f3f4</TextBox.Background>
+                    </TextBox>
+                </StackPanel>
+  
+            </Border>
+            <Border CornerRadius="20">
+                <Canvas.Left>440</Canvas.Left>
+                <Canvas.Top>300</Canvas.Top>
+                <Border.Width>220</Border.Width>
+                <Border.Height>40</Border.Height>
+                <Border.Background>#f2f3f4</Border.Background>
+              
+                <TextBox BorderThickness="0">
+                    <Canvas.Left>450</Canvas.Left>
+                    <Canvas.Top>250</Canvas.Top>
+                    <TextBox.Width>190</TextBox.Width>
+                    <TextBox.FontSize>15</TextBox.FontSize>
+                    <TextBox.FontFamily>Comic Sans MS</TextBox.FontFamily>
+                    <TextBox.Text>......E-mail Address</TextBox.Text>
+                    <TextBox.Foreground>#c1c7c9</TextBox.Foreground>
+                    <TextBox.Height>30</TextBox.Height>
+                    <TextBox.Background>#f2f3f4</TextBox.Background>
+                </TextBox>
+            </Border>
         </Canvas>
         
         

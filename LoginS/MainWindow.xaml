@@ -6,18 +6,20 @@
         xmlns:local="clr-namespace:LoginS"
         mc:Ignorable="d"
         Title="Login System" Height="600" Width="800" WindowStartupLocation="CenterScreen"
-        
+
         >
     <Grid>
 
       
         <Canvas>
+
             <Canvas.Background>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
                     <GradientStop Color="#d38312" Offset="0.0" />
-                    <GradientStop Color="#a83279" Offset="0.8" />
+                    <GradientStop Color="#a83279" Offset="1" />
                 </LinearGradientBrush>
             </Canvas.Background>
+            
             <Rectangle RadiusX="25" RadiusY="25">
                 <Canvas.Left>60</Canvas.Left>
                 <Canvas.Top>60</Canvas.Top>
@@ -52,15 +54,21 @@
             </Ellipse>
             <StackPanel Orientation="Horizontal">
                 <Canvas.Left>150</Canvas.Left>
-                <Canvas.Top>200</Canvas.Top>
-                <Image Source="Images\rose2.png">
+                <Canvas.Top>240</Canvas.Top>
+                <Image Source="Images\ROSE55.png">
                     <Image.Width>
-                        25
+                        30
                     </Image.Width>
                     <Image.Height>
-                        25
+                        30
                     </Image.Height>
                 </Image>
+                <Label Margin="10,0,0,0">
+                    <Label.Content>GlowRose</Label.Content>
+                    <Label.FontFamily>Comic Sans MS</Label.FontFamily>
+                    <Label.FontSize>20</Label.FontSize>
+                    <Label.Foreground>White</Label.Foreground>
+                </Label>
             </StackPanel>
             <Image Source="Images\personimage.png">
                 <Canvas.Left>510</Canvas.Left>
@@ -76,6 +84,7 @@
                 <Label.Content>Login below to get started</Label.Content>
                 <Label.Foreground>Gray</Label.Foreground>
                 <Label.FontFamily>Comic Sans MS</Label.FontFamily>
+            
             </Label>
           
             <Border CornerRadius="20">

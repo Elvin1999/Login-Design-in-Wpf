@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginS"
         mc:Ignorable="d"
-        Title="Login System" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Login System" Height="600" Width="800" WindowStartupLocation="CenterScreen"
+        
+        >
     <Grid>
 
       
@@ -48,6 +50,18 @@
                     </LinearGradientBrush>
                 </Ellipse.Fill>
             </Ellipse>
+            <StackPanel Orientation="Horizontal">
+                <Canvas.Left>250</Canvas.Left>
+                <Canvas.Top>120</Canvas.Top>
+                <Image Source="Images\rose2.png">
+                    <Image.Width>
+                        30
+                    </Image.Width>
+                    <Image.Height>
+                        30
+                    </Image.Height>
+                </Image>
+            </StackPanel>
             <Image Source="Images\personimage.png">
                 <Canvas.Left>510</Canvas.Left>
                 <Canvas.Top>120</Canvas.Top>
@@ -65,8 +79,7 @@
             </Label>
           
             <Border CornerRadius="20">
-
-              
+             
                 <Canvas.Left>440</Canvas.Left>
                 <Canvas.Top>230</Canvas.Top>
                 <Border.Width>220</Border.Width>
@@ -77,12 +90,12 @@
                         <Image.Width>25</Image.Width>
                         <Image.Height>25</Image.Height>
                     </Image>
-                    <TextBox BorderThickness="0">
+                    <TextBox BorderThickness="0" Margin="5,0,0,0">
 
                         <TextBox.Width>170</TextBox.Width>
                         <TextBox.FontSize>15</TextBox.FontSize>
                         <TextBox.FontFamily>Comic Sans MS</TextBox.FontFamily>
-                        <TextBox.Text>......E-mail Address</TextBox.Text>
+                        <TextBox.Text> E-mail Address</TextBox.Text>
                         <TextBox.Foreground>#c1c7c9</TextBox.Foreground>
                         <TextBox.Height>30</TextBox.Height>
                         <TextBox.Background>#f2f3f4</TextBox.Background>
@@ -96,18 +109,21 @@
                 <Border.Width>220</Border.Width>
                 <Border.Height>40</Border.Height>
                 <Border.Background>#f2f3f4</Border.Background>
-              
-                <TextBox BorderThickness="0">
-                    <Canvas.Left>450</Canvas.Left>
-                    <Canvas.Top>250</Canvas.Top>
-                    <TextBox.Width>190</TextBox.Width>
-                    <TextBox.FontSize>15</TextBox.FontSize>
-                    <TextBox.FontFamily>Comic Sans MS</TextBox.FontFamily>
-                    <TextBox.Text>......E-mail Address</TextBox.Text>
-                    <TextBox.Foreground>#c1c7c9</TextBox.Foreground>
-                    <TextBox.Height>30</TextBox.Height>
-                    <TextBox.Background>#f2f3f4</TextBox.Background>
-                </TextBox>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images\lock.png" Margin="10,0,0,0">
+                        <Image.Width>25</Image.Width>
+                        <Image.Height>25</Image.Height>
+                    </Image>
+                    <PasswordBox Name="Password" BorderThickness="0" Margin="5,0,0,0">
+                        <PasswordBox.Width>170</PasswordBox.Width>
+                        <PasswordBox.FontSize>15</PasswordBox.FontSize>
+                        <PasswordBox.FontFamily>Comic Sans MS</PasswordBox.FontFamily>
+                        <PasswordBox.Foreground>#c1c7c9</PasswordBox.Foreground>
+                        <PasswordBox.Height>30</PasswordBox.Height>
+                        <PasswordBox.Background>#f2f3f4</PasswordBox.Background>
+                        <PasswordBox.Password>yourpassword</PasswordBox.Password>
+                    </PasswordBox>
+                </StackPanel>
             </Border>
         </Canvas>
         

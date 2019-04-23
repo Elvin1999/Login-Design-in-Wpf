@@ -39,8 +39,12 @@
                     <GradientStop Color="#a83279" Offset="0.8" />
                 </LinearGradientBrush>
             </Canvas.Background>
-            <Rectangle>
-                
+            <Rectangle RadiusX="30" RadiusY="30">
+                <Canvas.Left>60</Canvas.Left>
+                <Canvas.Top>60</Canvas.Top>
+                <Rectangle.Width>650</Rectangle.Width>
+                <Rectangle.Height>450</Rectangle.Height>
+                <Rectangle.Fill>White</Rectangle.Fill>
             </Rectangle>
         </Canvas>
         

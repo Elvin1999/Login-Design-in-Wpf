@@ -19,7 +19,7 @@
                     <GradientStop Color="#a83279" Offset="1" />
                 </LinearGradientBrush>
             </Canvas.Background>
-            
+           
             <Rectangle RadiusX="25" RadiusY="25">
                 <Canvas.Left>60</Canvas.Left>
                 <Canvas.Top>60</Canvas.Top>
@@ -70,6 +70,12 @@
                     <Label.Foreground>White</Label.Foreground>
                 </Label>
             </StackPanel>
+            <Label>
+                <Canvas.Left>150</Canvas.Left>
+                <Canvas.Top>280</Canvas.Top>
+                <Label.Content>
+                    <TextBlock>Welcome to the <LineBreak/>Florist Community</TextBlock> </Label.Content>
+            </Label>
             <Image Source="Images\personimage.png">
                 <Canvas.Left>510</Canvas.Left>
                 <Canvas.Top>120</Canvas.Top>
@@ -100,7 +106,7 @@
                         <Image.Height>25</Image.Height>
                     </Image>
                     <TextBox BorderThickness="0" Margin="5,0,0,0">
-
+                      
                         <TextBox.Width>170</TextBox.Width>
                         <TextBox.FontSize>15</TextBox.FontSize>
                         <TextBox.FontFamily>Comic Sans MS</TextBox.FontFamily>
@@ -110,6 +116,7 @@
                         <TextBox.Background>#f2f3f4</TextBox.Background>
                     </TextBox>
                 </StackPanel>
+               
   
             </Border>
             <Border CornerRadius="20">

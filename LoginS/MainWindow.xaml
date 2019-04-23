@@ -71,10 +71,17 @@
                 </Label>
             </StackPanel>
             <Label>
-                <Canvas.Left>150</Canvas.Left>
+                <Canvas.Left>140</Canvas.Left>
                 <Canvas.Top>280</Canvas.Top>
                 <Label.Content>
                     <TextBlock>Welcome to the <LineBreak/>Florist Community</TextBlock> </Label.Content>
+                <Label.FontSize>22</Label.FontSize>
+                <Label.Foreground>
+                    White
+                </Label.Foreground>
+                <Label.FontFamily>
+                    Comic Sans MS
+                </Label.FontFamily>
             </Label>
             <Image Source="Images\personimage.png">
                 <Canvas.Left>510</Canvas.Left>

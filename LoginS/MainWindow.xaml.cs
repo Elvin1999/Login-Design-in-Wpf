@@ -24,5 +24,39 @@ namespace LoginS
         {
             InitializeComponent();
         }
+
+   
+
+        private void MailTxtB_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mailTxtB.Text == "E-mail Address")
+            {
+                mailTxtB.Text = String.Empty;
+            }
+        }
+
+        private void MailTxtB_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (mailTxtB.Text == String.Empty)
+            {
+                mailTxtB.Text = "E-mail Address";
+            }
+        }
+
+        private void Password_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (Password.Password == "yourpassword")
+            {
+                Password.Password = String.Empty;
+            }
+        }
+
+        private void Password_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (Password.Password == String.Empty)
+            {
+                Password.Password = "yourpassword";
+            }
+        }
     }
 }

@@ -148,6 +148,26 @@
                     </PasswordBox>
                 </StackPanel>
             </Border>
+
+            <Border CornerRadius="20" BorderBrush="White" BorderThickness="4">
+                <Canvas.Left>440</Canvas.Left>
+                <Canvas.Top>360</Canvas.Top>
+                <Border.Width>220</Border.Width>
+                <Border.Height>40</Border.Height>
+                <!--<Border.Effect>
+                    
+                    <DropShadowEffect />
+                </Border.Effect>-->
+                
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#ff8008" Offset="0.0" />
+                        <GradientStop Color="#ffc837" Offset="0.8" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                
+            </Border>
+            
         </Canvas>
         
         

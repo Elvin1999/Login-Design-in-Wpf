@@ -158,12 +158,17 @@
                     
                     <DropShadowEffect />
                 </Border.Effect>-->
-                
+                <Border.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Orange" ShadowDepth="8" Softness=".7">
+                        
+                    </DropShadowBitmapEffect>
+                </Border.BitmapEffect>
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
                         <GradientStop Color="#ff8008" Offset="0.0" />
                         <GradientStop Color="#ffc837" Offset="0.8" />
                     </LinearGradientBrush>
+                    
                 </Border.Background>
                 
             </Border>

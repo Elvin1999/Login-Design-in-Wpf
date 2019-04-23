@@ -8,30 +8,7 @@
         Title="Login System" Height="600" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
 
-        <!--<Canvas Background="AliceBlue">
-            <Rectangle Name="TopRectangle" Fill="Green">
-                <Rectangle.Width>445</Rectangle.Width>
-                <Rectangle.Height>40</Rectangle.Height>
-            </Rectangle>
-            <Rectangle  Name="bottomRectangle" Canvas.Top="395" Fill="Blue" Stroke="Black">
-                <Rectangle.Height>
-                    180
-                </Rectangle.Height>
-                <Rectangle.Width>
-                    445
-                </Rectangle.Width>
-            </Rectangle>
-            <Rectangle Name="ellipticRectangle" Fill="Yellow" Canvas.Top="220" Canvas.Left="40"
-                      RadiusX="60" RadiusY="60">
-                <Rectangle.Width>
-                    360
-                </Rectangle.Width>
-                <Rectangle.Height>
-                    270
-                </Rectangle.Height>
-            </Rectangle>
-            
-        </Canvas>-->
+      
         <Canvas>
             <Canvas.Background>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
@@ -39,13 +16,38 @@
                     <GradientStop Color="#a83279" Offset="0.8" />
                 </LinearGradientBrush>
             </Canvas.Background>
-            <Rectangle RadiusX="30" RadiusY="30">
+            <Rectangle RadiusX="25" RadiusY="25">
                 <Canvas.Left>60</Canvas.Left>
                 <Canvas.Top>60</Canvas.Top>
                 <Rectangle.Width>650</Rectangle.Width>
                 <Rectangle.Height>450</Rectangle.Height>
                 <Rectangle.Fill>White</Rectangle.Fill>
+              
             </Rectangle>
+            <Rectangle RadiusX="25" RadiusY="25">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#ff8008" Offset="0.0" />
+                        <GradientStop Color="#ffc837" Offset="0.8" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+                <Rectangle.Width>200</Rectangle.Width>
+                <Rectangle.Height>450</Rectangle.Height>
+                <Canvas.Left>60</Canvas.Left>
+                <Canvas.Top>60</Canvas.Top>
+            </Rectangle>
+            <Ellipse>
+                <Canvas.Left>60</Canvas.Left>
+                <Canvas.Top>60</Canvas.Top>
+                <Ellipse.Width>350</Ellipse.Width>
+                <Ellipse.Height>450</Ellipse.Height>
+                <Ellipse.Fill>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#ff8008" Offset="0.0" />
+                        <GradientStop Color="#ffc837" Offset="0.8" />
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
         </Canvas>
         
         

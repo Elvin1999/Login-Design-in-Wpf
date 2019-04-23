@@ -51,14 +51,14 @@
                 </Ellipse.Fill>
             </Ellipse>
             <StackPanel Orientation="Horizontal">
-                <Canvas.Left>250</Canvas.Left>
-                <Canvas.Top>120</Canvas.Top>
+                <Canvas.Left>150</Canvas.Left>
+                <Canvas.Top>200</Canvas.Top>
                 <Image Source="Images\rose2.png">
                     <Image.Width>
-                        30
+                        25
                     </Image.Width>
                     <Image.Height>
-                        30
+                        25
                     </Image.Height>
                 </Image>
             </StackPanel>
